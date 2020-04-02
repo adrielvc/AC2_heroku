@@ -7,9 +7,8 @@ app = Flask(__name__)
 
 def primos():
 
- total = 99
+    total = 99
     pr = 1
-    c = 1
     num = 3
 
     primos = "2,"
