@@ -1,0 +1,33 @@
+2020-04-02T23:46:53.886335+00:00 app[api]: Initial release by user adrielvc@gmail.com
+2020-04-02T23:46:53.886335+00:00 app[api]: Release v1 created by user adrielvc@gmail.com
+2020-04-02T23:46:54.115874+00:00 app[api]: Enable Logplex by user adrielvc@gmail.com
+2020-04-02T23:46:54.115874+00:00 app[api]: Release v2 created by user adrielvc@gmail.com
+2020-04-02T23:47:43.000000+00:00 app[api]: Build started by user adrielvc@gmail.com
+2020-04-02T23:48:10.391784+00:00 app[api]: Deploy 3ee014db by user adrielvc@gmail.com
+2020-04-02T23:48:10.391784+00:00 app[api]: Release v3 created by user adrielvc@gmail.com
+2020-04-02T23:48:10.412045+00:00 app[api]: Scaled to web@1:Free by user adrielvc@gmail.com
+2020-04-02T23:48:16.496649+00:00 heroku[web.1]: State changed from starting to crashed
+2020-04-02T23:48:16.500557+00:00 heroku[web.1]: State changed from crashed to starting
+2020-04-02T23:48:16.413800+00:00 app[web.1]: File "t10.py", line 11
+2020-04-02T23:48:16.414345+00:00 app[web.1]: pr = 1
+2020-04-02T23:48:16.414346+00:00 app[web.1]: ^
+2020-04-02T23:48:16.414352+00:00 app[web.1]: IndentationError: unexpected indent
+2020-04-02T23:48:19.000000+00:00 app[api]: Build succeeded
+2020-04-02T23:48:21.626879+00:00 heroku[web.1]: State changed from starting to crashed
+2020-04-02T23:48:21.540793+00:00 app[web.1]: File "t10.py", line 11
+2020-04-02T23:48:21.540819+00:00 app[web.1]: pr = 1
+2020-04-02T23:48:21.540819+00:00 app[web.1]: ^
+2020-04-02T23:48:21.540826+00:00 app[web.1]: IndentationError: unexpected indent
+2020-04-02T23:52:08.195148+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=immense-garden-89051.herokuapp.com request_id=385d6cd0-8594-45df-b978-a05dcfee6142 fwd="177.68.12.228" dyno= connect= service= status=503 bytes= protocol=https
+2020-04-02T23:52:08.912593+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=immense-garden-89051.herokuapp.com request_id=d5ded687-405b-49f3-9eac-704bab27eb0a fwd="177.68.12.228" dyno= connect= service= status=503 bytes= protocol=https
+2020-04-02T23:55:55.000000+00:00 app[api]: Build started by user adrielvc@gmail.com
+2020-04-02T23:56:23.330225+00:00 heroku[web.1]: State changed from crashed to starting
+2020-04-02T23:56:23.125554+00:00 app[api]: Deploy 8dd73d60 by user adrielvc@gmail.com
+2020-04-02T23:56:23.125554+00:00 app[api]: Release v4 created by user adrielvc@gmail.com
+2020-04-02T23:56:28.779558+00:00 app[web.1]: * Running on http://0.0.0.0:43131/ (Press CTRL+C to quit)
+2020-04-02T23:56:30.540061+00:00 heroku[web.1]: State changed from starting to up
+2020-04-02T23:56:31.000000+00:00 app[api]: Build succeeded
+2020-04-02T23:57:07.559012+00:00 heroku[router]: at=info method=GET path="/" host=immense-garden-89051.herokuapp.com request_id=78c7fd4e-3d98-4c7d-bea6-1cdbf736155d fwd="177.68.12.228" dyno=web.1 connect=1ms service=4ms status=200 bytes=522 protocol=https
+2020-04-02T23:57:07.557768+00:00 app[web.1]: 10.5.206.253 - - [02/Apr/2020 23:57:07] "GET / HTTP/1.1" 200 -
+2020-04-02T23:57:07.965592+00:00 app[web.1]: 10.5.206.253 - - [02/Apr/2020 23:57:07] "GET /favicon.ico HTTP/1.1" 404 -
+2020-04-02T23:57:07.966845+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=immense-garden-89051.herokuapp.com request_id=e2b6813e-cc42-4af8-a8d0-ff917a6a1968 fwd="177.68.12.228" dyno=web.1 connect=1ms service=10ms status=404 bytes=380 protocol=https
